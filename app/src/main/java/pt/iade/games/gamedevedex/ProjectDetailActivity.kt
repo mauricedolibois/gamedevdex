@@ -88,7 +88,6 @@ fun ProjectDetailScreen(project: Project) {
             ) {
                 Spacer(modifier = Modifier.height(16.dp))
                 DescriptionCard(project)
-                Spacer(modifier = Modifier.height(16.dp))
                 ProjectAssetsSection(project.assets)
             }
         }
@@ -98,8 +97,7 @@ fun ProjectDetailScreen(project: Project) {
         Dialog(onDismissRequest = { selectedStudent = null }) { //close when press outside
             Surface(
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(16.dp),
+                    .fillMaxWidth(),
                 shape = MaterialTheme.shapes.medium,
                 color = MaterialTheme.colorScheme.surface
             ) {

@@ -9,7 +9,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "pt.iade.games.gamedevedex"
+        applicationId = "pt.iade.games.gamedevedex_maurice"
         minSdk = 28
         targetSdk = 34
         versionCode = 1

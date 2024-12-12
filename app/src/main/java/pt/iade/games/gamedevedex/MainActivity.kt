@@ -76,7 +76,7 @@ fun MainView() {
             }
 
             ProjectCard(
-                modifier = Modifier.padding(vertical = 20.dp),
+                modifier = Modifier.padding(20.dp),
                 project = ProjectExample()
             )
         }

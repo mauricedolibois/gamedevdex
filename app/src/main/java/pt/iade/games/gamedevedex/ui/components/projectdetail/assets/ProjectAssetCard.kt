@@ -20,7 +20,6 @@ fun ProjectAssetCard(asset: ProjectAsset) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 8.dp)
     ) {
         Column {
             AsyncImage(
